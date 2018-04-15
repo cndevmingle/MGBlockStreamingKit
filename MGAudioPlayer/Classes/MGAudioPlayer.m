@@ -17,7 +17,7 @@
 /**播放失败已重试次数*/
 @property (nonatomic, assign) NSInteger replayUseCountInFail;
 /**当前播放的音频地址*/
-@property (nonatomic, strong) NSURL *currentURL;
+@property (nonatomic, strong, readwrite) NSURL *currentURL;
 
 @end
 
@@ -45,6 +45,18 @@
         _audioPlayer.delegate = self;
     }
     return _audioPlayer;
+}
+
+- (double)duration {
+    return _audioPlayer.duration;
+}
+
+- (double)progress {
+    return _audioPlayer.progress;
+}
+
+- (STKAudioPlayerState *)state {
+    return _audioPlayer.state;
 }
 
 - (void)setRefreshTimeInterval:(NSTimeInterval)refreshTimeInterval {
