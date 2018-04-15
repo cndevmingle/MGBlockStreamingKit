@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82773FCF20835D7F00137987 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FCE20835D7F00137987 /* AppDelegate.m */; };
+		82773FD220835D7F00137987 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FD120835D7F00137987 /* ViewController.m */; };
+		82773FD520835D7F00137987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82773FD320835D7F00137987 /* Main.storyboard */; };
+		82773FD720835D8000137987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82773FD620835D8000137987 /* Assets.xcassets */; };
+		82773FDA20835D8000137987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82773FD820835D8000137987 /* LaunchScreen.storyboard */; };
+		82773FDD20835D8000137987 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FDC20835D8000137987 /* main.m */; };
+		82773FE820835D8900137987 /* MGAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FE620835D8900137987 /* MGAudioPlayer.m */; };
+		82773FFC20835DB800137987 /* STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FE920835DB700137987 /* STKAudioPlayer.m */; };
+		82773FFD20835DB800137987 /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FEB20835DB700137987 /* STKHTTPDataSource.m */; };
+		82773FFE20835DB800137987 /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FEC20835DB700137987 /* STKLocalFileDataSource.m */; };
+		82773FFF20835DB800137987 /* STKQueueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FEE20835DB700137987 /* STKQueueEntry.m */; };
+		8277400020835DB800137987 /* STKAutoRecoveringHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FEF20835DB700137987 /* STKAutoRecoveringHTTPDataSource.m */; };
+		8277400120835DB800137987 /* NSMutableArray+STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FF620835DB800137987 /* NSMutableArray+STKAudioPlayer.m */; };
+		8277400220835DB800137987 /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FF720835DB800137987 /* STKDataSourceWrapper.m */; };
+		8277400320835DB800137987 /* STKCoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FFA20835DB800137987 /* STKCoreFoundationDataSource.m */; };
+		8277400420835DB800137987 /* STKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 82773FFB20835DB800137987 /* STKDataSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82773FCA20835D7F00137987 /* MGStreamKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGStreamKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82773FCD20835D7F00137987 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82773FCE20835D7F00137987 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82773FD020835D7F00137987 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82773FD120835D7F00137987 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82773FD420835D7F00137987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82773FD620835D8000137987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82773FD920835D8000137987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82773FDB20835D8000137987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82773FDC20835D8000137987 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82773FE520835D8900137987 /* MGAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAudioPlayer.h; sourceTree = "<group>"; };
+		82773FE620835D8900137987 /* MGAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGAudioPlayer.m; sourceTree = "<group>"; };
+		82773FE920835DB700137987 /* STKAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKAudioPlayer.m; sourceTree = "<group>"; };
+		82773FEA20835DB700137987 /* STKCoreFoundationDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKCoreFoundationDataSource.h; sourceTree = "<group>"; };
+		82773FEB20835DB700137987 /* STKHTTPDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKHTTPDataSource.m; sourceTree = "<group>"; };
+		82773FEC20835DB700137987 /* STKLocalFileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKLocalFileDataSource.m; sourceTree = "<group>"; };
+		82773FED20835DB700137987 /* STKQueueEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKQueueEntry.h; sourceTree = "<group>"; };
+		82773FEE20835DB700137987 /* STKQueueEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKQueueEntry.m; sourceTree = "<group>"; };
+		82773FEF20835DB700137987 /* STKAutoRecoveringHTTPDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKAutoRecoveringHTTPDataSource.m; sourceTree = "<group>"; };
+		82773FF020835DB700137987 /* STKDataSourceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKDataSourceWrapper.h; sourceTree = "<group>"; };
+		82773FF120835DB700137987 /* STKHTTPDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKHTTPDataSource.h; sourceTree = "<group>"; };
+		82773FF220835DB800137987 /* STKAutoRecoveringHTTPDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKAutoRecoveringHTTPDataSource.h; sourceTree = "<group>"; };
+		82773FF320835DB800137987 /* STKAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKAudioPlayer.h; sourceTree = "<group>"; };
+		82773FF420835DB800137987 /* STKDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKDataSource.h; sourceTree = "<group>"; };
+		82773FF520835DB800137987 /* NSMutableArray+STKAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+STKAudioPlayer.h"; sourceTree = "<group>"; };
+		82773FF620835DB800137987 /* NSMutableArray+STKAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+STKAudioPlayer.m"; sourceTree = "<group>"; };
+		82773FF720835DB800137987 /* STKDataSourceWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKDataSourceWrapper.m; sourceTree = "<group>"; };
+		82773FF820835DB800137987 /* StreamingKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-Prefix.pch"; sourceTree = "<group>"; };
+		82773FF920835DB800137987 /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKLocalFileDataSource.h; sourceTree = "<group>"; };
+		82773FFA20835DB800137987 /* STKCoreFoundationDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKCoreFoundationDataSource.m; sourceTree = "<group>"; };
+		82773FFB20835DB800137987 /* STKDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKDataSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82773FC720835D7F00137987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82773FC120835D7F00137987 = {
+			isa = PBXGroup;
+			children = (
+				82773FCC20835D7F00137987 /* MGStreamKitDemo */,
+				82773FCB20835D7F00137987 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82773FCB20835D7F00137987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82773FCA20835D7F00137987 /* MGStreamKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82773FCC20835D7F00137987 /* MGStreamKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				82773FE320835D8900137987 /* MGAudioPlayer */,
+				82773FCD20835D7F00137987 /* AppDelegate.h */,
+				82773FCE20835D7F00137987 /* AppDelegate.m */,
+				82773FD020835D7F00137987 /* ViewController.h */,
+				82773FD120835D7F00137987 /* ViewController.m */,
+				82773FD320835D7F00137987 /* Main.storyboard */,
+				82773FD620835D8000137987 /* Assets.xcassets */,
+				82773FD820835D8000137987 /* LaunchScreen.storyboard */,
+				82773FDB20835D8000137987 /* Info.plist */,
+				82773FDC20835D8000137987 /* main.m */,
+			);
+			path = MGStreamKitDemo;
+			sourceTree = "<group>";
+		};
+		82773FE320835D8900137987 /* MGAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				82773FE420835D8900137987 /* Classes */,
+				82773FE720835D8900137987 /* StreamingKit */,
+			);
+			name = MGAudioPlayer;
+			path = ../../MGAudioPlayer;
+			sourceTree = "<group>";
+		};
+		82773FE420835D8900137987 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				82773FE520835D8900137987 /* MGAudioPlayer.h */,
+				82773FE620835D8900137987 /* MGAudioPlayer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		82773FE720835D8900137987 /* StreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				82773FF520835DB800137987 /* NSMutableArray+STKAudioPlayer.h */,
+				82773FF620835DB800137987 /* NSMutableArray+STKAudioPlayer.m */,
+				82773FF320835DB800137987 /* STKAudioPlayer.h */,
+				82773FE920835DB700137987 /* STKAudioPlayer.m */,
+				82773FF220835DB800137987 /* STKAutoRecoveringHTTPDataSource.h */,
+				82773FEF20835DB700137987 /* STKAutoRecoveringHTTPDataSource.m */,
+				82773FEA20835DB700137987 /* STKCoreFoundationDataSource.h */,
+				82773FFA20835DB800137987 /* STKCoreFoundationDataSource.m */,
+				82773FF420835DB800137987 /* STKDataSource.h */,
+				82773FFB20835DB800137987 /* STKDataSource.m */,
+				82773FF020835DB700137987 /* STKDataSourceWrapper.h */,
+				82773FF720835DB800137987 /* STKDataSourceWrapper.m */,
+				82773FF120835DB700137987 /* STKHTTPDataSource.h */,
+				82773FEB20835DB700137987 /* STKHTTPDataSource.m */,
+				82773FF920835DB800137987 /* STKLocalFileDataSource.h */,
+				82773FEC20835DB700137987 /* STKLocalFileDataSource.m */,
+				82773FED20835DB700137987 /* STKQueueEntry.h */,
+				82773FEE20835DB700137987 /* STKQueueEntry.m */,
+				82773FF820835DB800137987 /* StreamingKit-Prefix.pch */,
+			);
+			path = StreamingKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82773FC920835D7F00137987 /* MGStreamKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82773FE020835D8000137987 /* Build configuration list for PBXNativeTarget "MGStreamKitDemo" */;
+			buildPhases = (
+				82773FC620835D7F00137987 /* Sources */,
+				82773FC720835D7F00137987 /* Frameworks */,
+				82773FC820835D7F00137987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGStreamKitDemo;
+			productName = MGStreamKitDemo;
+			productReference = 82773FCA20835D7F00137987 /* MGStreamKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82773FC220835D7F00137987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Mingle;
+				TargetAttributes = {
+					82773FC920835D7F00137987 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 82773FC520835D7F00137987 /* Build configuration list for PBXProject "MGStreamKitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82773FC120835D7F00137987;
+			productRefGroup = 82773FCB20835D7F00137987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82773FC920835D7F00137987 /* MGStreamKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82773FC820835D7F00137987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82773FDA20835D8000137987 /* LaunchScreen.storyboard in Resources */,
+				82773FD720835D8000137987 /* Assets.xcassets in Resources */,
+				82773FD520835D7F00137987 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82773FC620835D7F00137987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82773FD220835D7F00137987 /* ViewController.m in Sources */,
+				8277400220835DB800137987 /* STKDataSourceWrapper.m in Sources */,
+				82773FE820835D8900137987 /* MGAudioPlayer.m in Sources */,
+				82773FFC20835DB800137987 /* STKAudioPlayer.m in Sources */,
+				82773FFF20835DB800137987 /* STKQueueEntry.m in Sources */,
+				8277400420835DB800137987 /* STKDataSource.m in Sources */,
+				8277400320835DB800137987 /* STKCoreFoundationDataSource.m in Sources */,
+				8277400120835DB800137987 /* NSMutableArray+STKAudioPlayer.m in Sources */,
+				82773FFD20835DB800137987 /* STKHTTPDataSource.m in Sources */,
+				82773FDD20835D8000137987 /* main.m in Sources */,
+				8277400020835DB800137987 /* STKAutoRecoveringHTTPDataSource.m in Sources */,
+				82773FFE20835DB800137987 /* STKLocalFileDataSource.m in Sources */,
+				82773FCF20835D7F00137987 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82773FD320835D7F00137987 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82773FD420835D7F00137987 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82773FD820835D8000137987 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82773FD920835D8000137987 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82773FDE20835D8000137987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82773FDF20835D8000137987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82773FE120835D8000137987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKPYZLHRKQ;
+				INFOPLIST_FILE = MGStreamKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingle.MGStreamKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82773FE220835D8000137987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKPYZLHRKQ;
+				INFOPLIST_FILE = MGStreamKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingle.MGStreamKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82773FC520835D7F00137987 /* Build configuration list for PBXProject "MGStreamKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82773FDE20835D8000137987 /* Debug */,
+				82773FDF20835D8000137987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82773FE020835D8000137987 /* Build configuration list for PBXNativeTarget "MGStreamKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82773FE120835D8000137987 /* Debug */,
+				82773FE220835D8000137987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82773FC220835D7F00137987 /* Project object */;
+}
