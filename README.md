@@ -1,0 +1,2 @@
+# MGBlockStreamingKit
+基于StreamingKit封装
